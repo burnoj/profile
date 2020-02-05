@@ -1,0 +1,104 @@
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url("http://thumbpress.com/wp-content/uploads/2012/04/12-The-Lighthouse-630x459.jpg");
+  background-size: cover;
+  /*background-color: #F7F9FC;*/
+  font-family: 'Open Sans', sans-serif;
+  color: #2c3b46;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 8px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 14px
+  font-weight: lighter;
+}
+
+p {
+  padding-bottom: 30px;
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  color: #596da1;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 5px;
+}
+
+i {
+  color: ;
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+i:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.card {
+  padding: 40px;
+  font-weight: lighter;
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: white;
+  margin: 20px 400px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-color: white;
+}
+
+.img_circle {
+  border-radius: 50%;
+}
+
+.button_blue {
+  background-color: #576ca0;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.button_blue:hover {
+  opacity: 1;
+  text-decoration: none;
+  background-color: black;
+}
+
+/*#banner{
+  text-align: center;
+  background-image: linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url("https://unsplash.it/1300/600?random");
+
+  background-size: cover;
+  padding: 150px;
+  color: white;
+}*/
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+
+
+
+
